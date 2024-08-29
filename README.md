@@ -19,7 +19,7 @@
 
 1. Clone this repository using Git:
    ```bash
-   git clone https://github.com/yourusername/artspace.git
+   git@github.com:rayynaldgitau/ArtSpace.git
    ```
 
 2. Navigate to the project directory:
