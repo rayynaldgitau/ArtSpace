@@ -97,7 +97,7 @@ fun ArtSpaceScreen(modifier: Modifier = Modifier) {
                     }
                 },
                 colors = ButtonDefaults.buttonColors(
-                    containerColor = colorResource(id = R.color.gray_900)
+                    containerColor = colorResource(id = R.color.white)
                 ),
                 elevation = ButtonDefaults.buttonElevation(
                     defaultElevation = 1.dp,
@@ -154,7 +154,7 @@ fun ArtSpaceScreen(modifier: Modifier = Modifier) {
                     text = "Next",
                     fontSize = 16.sp,
                     fontWeight = FontWeight.Medium,
-                    color = colorResource(id = R.color.gray_900)
+                    color = colorResource(id = R.color.white)
                 )
             }
         }
