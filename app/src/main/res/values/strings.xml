@@ -1,13 +1,13 @@
 <resources>
-    <string name="app_name" translatable="false">ArtSpace</string>
+    <string name="app_name" translatable="false">EU Gallarey</string>
     <string name="London">London</string>
-    <string name="London_year">1945 AD</string>
+    <string name="London_year">1215 AD</string>
     <string name="Paris">Paris</string>
-    <string name="Paris_year">1990 AD</string>
+    <string name="Paris_year">1789 AD</string>
     <string name="Amsterdam">Amsterdam</string>
-    <string name="Amsterdam_year">1957 AD</string>
+    <string name="Amsterdam_year">1581 AD</string>
     <string name="Berlin">Berlin</string>
-    <string name="Berlin_year">1789 AD</string>
+    <string name="Berlin_year">1871 AD</string>
 
 
 
