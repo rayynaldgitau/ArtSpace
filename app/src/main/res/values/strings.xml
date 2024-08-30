@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name" translatable="false">EU Gallarey</string>
+    <string name="app_name" translatable="false">EU Gallery</string>
     <string name="London">London</string>
     <string name="London_year">1215 AD</string>
     <string name="Paris">Paris</string>
