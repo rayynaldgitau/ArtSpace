@@ -42,14 +42,14 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun ArtSpaceScreen(modifier: Modifier = Modifier) {
     // Artwork resources
-    val firstArtwork = R.drawable.artwork1
-    val secondArtwork = R.drawable.artwork2
-    val thirdArtwork = R.drawable.artwork3
-    val fourthArtwork = R.drawable.sample_artwork
+    val firstArtwork = R.drawable.berlin
+    val secondArtwork = R.drawable.london
+    val thirdArtwork = R.drawable.paris
+    val fourthArtwork = R.drawable.amsterdam
 
     // State variables for managing the current artwork and its details
-    var title by remember { mutableStateOf(R.string.Italy) }
-    var year by remember { mutableStateOf(R.string.Italy_year) }
+    var title by remember { mutableStateOf(R.string.London) }
+    var year by remember { mutableStateOf(R.string.London_year) }
     var currentArtwork by remember { mutableStateOf(firstArtwork) }
     var imageResource by remember { mutableStateOf(currentArtwork) }
 
@@ -76,23 +76,23 @@ fun ArtSpaceScreen(modifier: Modifier = Modifier) {
                     when (currentArtwork) {
                         firstArtwork -> {
                             currentArtwork = fourthArtwork
-                            title = R.string.France
-                            year = R.string.France_year
+                            title = R.string.Berlin
+                            year = R.string.Berlin_year
                         }
                         secondArtwork -> {
                             currentArtwork = firstArtwork
-                            title = R.string.Italy
-                            year = R.string.Italy_year
+                            title = R.string.London
+                            year = R.string.London_year
                         }
                         thirdArtwork -> {
                             currentArtwork = secondArtwork
-                            title = R.string.germany
-                            year = R.string.Germany_year
+                            title = R.string.Paris
+                            year = R.string.Paris_year
                         }
                         else -> {
                             currentArtwork = thirdArtwork
-                            title = R.string.Europe
-                            year = R.string.Europe_year
+                            title = R.string.Amsterdam
+                            year = R.string.Amsterdam_year
                         }
                     }
                 },
@@ -120,23 +120,23 @@ fun ArtSpaceScreen(modifier: Modifier = Modifier) {
                     when (currentArtwork) {
                         firstArtwork -> {
                             currentArtwork = secondArtwork
-                            title = R.string.germany
-                            year = R.string.Germany_year
+                            title = R.string.Paris
+                            year = R.string.Paris_year
                         }
                         secondArtwork -> {
                             currentArtwork = thirdArtwork
-                            title = R.string.Europe
-                            year = R.string.Europe_year
+                            title = R.string.Amsterdam
+                            year = R.string.Amsterdam_year
                         }
                         thirdArtwork -> {
                             currentArtwork = fourthArtwork
-                            title = R.string.France
-                            year = R.string.France_year
+                            title = R.string.Berlin
+                            year = R.string.Berlin_year
                         }
                         else -> {
                             currentArtwork = firstArtwork
-                            title = R.string.Italy
-                            year = R.string.Italy_year
+                            title = R.string.London
+                            year = R.string.London_year
                         }
                     }
                 },
@@ -169,7 +169,7 @@ fun ArtworkDisplay(
 ) {
     Image(
         painter = painterResource(currentArtwork),
-        contentDescription = stringResource(id = R.string.germany),
+        contentDescription = stringResource(id = R.string.Paris),
         modifier = modifier.fillMaxWidth(),
         contentScale = ContentScale.FillWidth
     )

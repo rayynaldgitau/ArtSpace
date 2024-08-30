@@ -1,13 +1,13 @@
 <resources>
     <string name="app_name" translatable="false">ArtSpace</string>
-    <string name="Italy">Italy</string>
-    <string name="Italy_year">1945 AD</string>
-    <string name="germany">Germany</string>
-    <string name="Germany_year">1990 AD</string>
-    <string name="Europe">Europe</string>
-    <string name="Europe_year">1957 AD</string>
-    <string name="France">France</string>
-    <string name="France_year">1789 AD</string>
+    <string name="London">London</string>
+    <string name="London_year">1945 AD</string>
+    <string name="Paris">Paris</string>
+    <string name="Paris_year">1990 AD</string>
+    <string name="Amsterdam">Amsterdam</string>
+    <string name="Amsterdam_year">1957 AD</string>
+    <string name="Berlin">Berlin</string>
+    <string name="Berlin_year">1789 AD</string>
 
 
 
