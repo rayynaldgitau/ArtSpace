@@ -81,6 +81,4 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 
 For any questions or suggestions, please contact [raynaldgitau@gmail.com](raynaldgitau@gmail.com).
 
----
 
-Feel free to customize this README further based on your specific needs or preferences.
